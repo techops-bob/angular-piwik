@@ -63,6 +63,9 @@ mod.factory 'PiwikActionMethods', -> [
   'trackContentInteraction'
   'trackContentInteractionNode'
   'trackSiteSearch'
+  'setCustomDimension'
+  'deleteCustomDimension'
+  'getCustomDimension'
 ]
 
 mod.factory 'PiwikGetMethods', -> [
